@@ -1,0 +1,25 @@
+.article-list-medium-content .article-link{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  /* imagem agora à esquerda */
+  .article-list-medium-content .article-image{
+    order: 1;
+    min-width: 180px;
+  }
+  
+  /* texto à direita */
+  .article-list-medium-content .article-text{
+    order: 2;
+    flex: 1;
+  }
+  
+  /* aumentar tamanho da imagem */
+  .article-list-medium-content .article-image img{
+    width: 180px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
